@@ -1,5 +1,5 @@
 module CLibreSSL {
-    umbrella header "/Users/doduc/workspaces/goku/vp/whimEat/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/CLibreSSL.h"
+    umbrella header "/Users/doduc/workspaces/whimEat/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/CLibreSSL.h"
     link "CLibreSSL"
     export *
 }
