@@ -18,6 +18,7 @@ extension Restaurant: NodeConvertible {
     init(node: Node, in context: Context) throws {
         id = node["id"]
         name = node["name"]?.string
+        dauma = node["dauma"]?.string
     }
     
     func makeNode(context: Context) throws -> Node {        
