@@ -6,6 +6,7 @@ struct Restaurant: Model {
     var id: Node?
     var name: String?    
     var dauma: String?
+    var dauma2: Int?
     var exists: Bool = false
     
     init(name: String) {
