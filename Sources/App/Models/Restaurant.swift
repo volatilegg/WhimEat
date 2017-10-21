@@ -5,7 +5,7 @@ import Foundation
 struct Restaurant: Model {
     var id: Node?
     var name: String?    
-    
+    var dauma: String?
     var exists: Bool = false
     
     init(name: String) {
